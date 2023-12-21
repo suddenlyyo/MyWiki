@@ -30,6 +30,7 @@
         <jmockdata.version>4.3.0</jmockdata.version>
         <mysql.version>8.0.31</mysql.version>
         <p6spy.version>3.9.1</p6spy.version>
+        <sql-formatter.version>2.0.4</sql-formatter.version>
         <jedis.version>3.3.0</jedis.version>
    </properties>
 
