@@ -37,4 +37,15 @@ public class StringTest {
             }
         }
     }
+
+    //java 15 新特性文本块
+    @Test
+    public void multilineStrings() {
+        String str = """
+                Get busy living
+                or
+                get busy dying.
+                --Stephen King""";
+        System.out.println(str);
+    }
 }
