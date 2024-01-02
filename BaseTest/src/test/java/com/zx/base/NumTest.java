@@ -2,6 +2,7 @@ package com.zx.base;
 
 import org.junit.jupiter.api.Test;
 
+import java.text.NumberFormat;
 import java.util.stream.IntStream;
 
 
@@ -49,6 +50,16 @@ public class NumTest {
         System.out.println("计算15的二进制右移2位结果:" + (15 >> 2));
     }
 
+    @Test
+    public void NumberFormatTest() {
+        //实现格式化显示数字
+        double number = 123456789.987;
+        NumberFormat format = NumberFormat.getNumberInstance();
+        //format.setGroupingUsed(true); // 启用分组
+        format.setMaximumFractionDigits(2); // 设置小数点后最大位数
+        String result = format.format(number);
+        System.out.println(result); // 输出: 123,456,789.99
+    }
 
 }
 
