@@ -37,11 +37,8 @@ public class CustomSqlFormatter implements MessageFormattingStrategy {
                                 String url) {
         if (!sql.trim().isEmpty()) {
             String sqlBegin = "============== SQL LOGGER BEGIN ==============";
-            LocalDateTime now1 = LocalDateTime.now();
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-            String format = now1.format(formatter);
-            String sqlExecuteTime = "SQL执行时间:" + format + "\n";
-            String elapsedStr = "SQL执行毫秒:" + elapsed + "ms" + "\n";
+            String sqlExecuteTime = "SQL执行时间:" + now + "\n";
+            String elapsedStr = "SQL执行耗时毫秒:" + elapsed + "ms" + "\n";
             String formattedSql = SqlFormatter.format(sql);
             String sqlPrint = "SQL执行语句:\n" + formattedSql;
             String sqlEnd = "==============  SQL LOGGER END  ==============";
