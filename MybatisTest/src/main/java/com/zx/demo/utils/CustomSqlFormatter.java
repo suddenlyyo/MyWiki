@@ -3,9 +3,6 @@ package com.zx.demo.utils;
 import com.github.vertical_blank.sqlformatter.SqlFormatter;
 import com.p6spy.engine.spy.appender.MessageFormattingStrategy;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
 /**
  * @program: MyWiki
  * @description: 自定义sql 打印
