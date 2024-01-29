@@ -13,6 +13,8 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 /**
  * 函数式接口测试
  */
@@ -79,6 +81,19 @@ public class FunctionalInterfacesTest {
         Predicate<Integer> greaterThanTwo = (n) -> n > 2;
         // 使用and连接两个Predicate，过滤偶数且大于2的数字并打印结果
         numbers.stream().filter(evenNumbers.and(greaterThanTwo)).forEach(System.out::println);
+    }
+    @Test
+    @DisplayName("Predicate or Test")
+    public void predicateOrTest() {
+        Predicate<String> startsWithA = s -> s.startsWith("A");
+
+        Predicate<String> endsWithB = s -> s.endsWith("B");
+        // 创建复合Predicate，判断字符串以"A"或"B"开头
+        Predicate<String> eitherCondition = startsWithA.or(endsWithB);
+
+        boolean meetsEither = eitherCondition.test("Apple");
+
+        assertEquals(true,meetsEither);
     }
 
     @Test
