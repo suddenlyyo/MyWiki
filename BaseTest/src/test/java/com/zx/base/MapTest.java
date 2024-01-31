@@ -19,7 +19,9 @@ public class MapTest {
 //        for (String key : map.keySet()) {
 //            System.out.println("Key: " + key + ", Value: " + map.get(key));
 //        }
-        map.keySet().stream().map(key -> "Key: " + key + ", Value: " + map.get(key)).forEach(System.out::println);
+        map.keySet().stream()
+                .map(key -> "Key: " + key + ", Value: " + map.get(key))
+                .forEach(System.out::println);
     }
 
     @Test
@@ -43,7 +45,9 @@ public class MapTest {
 //        for (Integer value : map.values()) {
 //            System.out.println("Value: " + value);
 //        }
-        map.values().stream().map(value -> "Value: " + value).forEach(System.out::println);
+        map.values().stream()
+                .map(value -> "Value: " + value)
+                .forEach(System.out::println);
     }
 
     //----------------java8 新增方法测试--------------------------------------
