@@ -5,7 +5,7 @@ import com.zx.dynamicproxy.service.Action;
 
 public class ActionImpl implements Action {
     @Override
-    public String eat() {
-        return "在吃了！";
+    public void eat() {
+        System.out.println("在吃了!");
     }
 }

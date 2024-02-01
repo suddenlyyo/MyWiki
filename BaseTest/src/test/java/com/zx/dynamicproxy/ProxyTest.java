@@ -18,7 +18,7 @@ public class ProxyTest {
         //要实现的代理类的接口列表
         Class<?>[] interfaces = action.getClass().getInterfaces();
         Action proxy = (Action) Proxy.newProxyInstance(classLoader, interfaces, handler);
-        System.out.println(proxy.eat());
+        proxy.eat();
     }
 
 }

@@ -3,6 +3,7 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true">
     <file url="file://$PROJECT_DIR$/BaseTest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BaseTest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BaseTest/src/test/resources/User.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GroovyDemo/src/main/java" charset="UTF-8" />
