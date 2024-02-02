@@ -189,3 +189,69 @@ unused，抑制与未用的程式码及停用的程式码相关的警告
 版权声明：本文为CSDN博主「兮动人」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/qq_41684621/article/details/123807986
 ```
+## java Doc
+
+
+|===
+|标签  |描述 |示例
+
+|@author
+|标识一个类的作者
+|@author xxx
+
+|@deprecated
+|指名一个过期的类或成员
+|@deprecated xxx
+
+|{@docRoot}
+|在生成的 HTML 文档中插入一个指向整个文档根目录的链接。这通常用于创建指向其他文档或外部资源的链接。
+|{@docRoot} /other-document.html 有更多的信息。
+
+|@exception
+|标志一个类抛出的异常
+|@exception 异常名称 xxx
+
+|{@inheritDoc}
+|从直接父类继承的注释
+|Inherits a comment from the immediate surperclass.
+
+|{@link}
+|插入一个到另一个主题的链接
+|{@link name text}
+
+|{@linkplain}
+|插入一个到另一个主题的链接，但是该链接显示纯文本字体
+|{@linkplain OtherClass} 是另一个类。
+
+|@param
+|说明一个方法的参数
+|@param 参数名称 xx
+
+|@return
+|说明返回值类型
+|@return xxx
+
+|@see
+|指定一个到另一个主题的链接
+|@see xxx
+
+|@serial
+|说明一个序列化属性
+|@serial xxx
+
+|@serialData
+|说明通过writeObject( ) 和 writeExternal( )方法写的数据
+|@serialData xxx
+
+|@serialField
+|说明一个ObjectStreamField组件
+|@serialField xxxx
+
+|@since
+|标记当引入一个特定的变化时
+|@since xx
+
+|@throws
+|和 @exception标签一样.
+|@throws 标记与@exception标记具有相同的含义。
+|===
