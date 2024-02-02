@@ -76,7 +76,15 @@ ps：model 和 domain 概念比较重合，都是对业务的数据抽象，主�
 
 ### 事务传播类型
 
-java 中的事务传播类型包括： 1.Propagation.REQUIRED：如果当前没有事务，就新建一个事务，如果已经存在一个事务中，加入到这个事务中。这是最常见的选择。 2.Propagation.SUPPORTS：支持当前事务，如果当前没有事务，就以非事务方式执行。 3.Propagation.MANDATORY：使用当前的事务，如果当前没有事务，就抛出异常。 4.Propagation.REQUIRES_NEW：新建事务，如果当前存在事务，把当前事务挂起。 5.Propagation.NOT_SUPPORTED：以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。 6.Propagation.NEVER：以非事务方式执行，如果当前存在事务，则抛出异常。 7.Propagation.NESTED：如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则执行 REQUIRED 类似的操作。
+java 中的事务传播类型包括：
+
+1. Propagation.REQUIRED：如果当前没有事务，就新建一个事务，如果已经存在一个事务中，加入到这个事务中。默认传播特性。
+2. Propagation.SUPPORTS：支持当前事务，如果当前没有事务，就以非事务方式执行。
+3. Propagation.MANDATORY：使用当前的事务，如果当前没有事务，就抛出异常。
+4. Propagation.REQUIRES_NEW：新建事务，如果当前存在事务，把当前事务挂起。
+5. Propagation.NOT_SUPPORTED：以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。
+6. Propagation.NEVER：以非事务方式执行，如果当前存在事务，则抛出异常。
+7. Propagation.NESTED：如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则执行 REQUIRED 类似的操作。
 
 ### AspectJ通知类型
 
