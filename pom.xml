@@ -19,6 +19,7 @@
         <module>Common</module>
         <module>BaseTest</module>
         <module>TransactionTest</module>
+        <module>CglibProxy</module>
     </modules>
 
     <properties>

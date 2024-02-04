@@ -8,10 +8,10 @@
     </parent>
 
     <groupId>org.example</groupId>
-    <artifactId>BaseTest</artifactId>
+    <artifactId>CglibProxy</artifactId>
     <packaging>jar</packaging>
 
-    <name>BaseTest</name>
+    <name>CglibProxy</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -19,30 +19,10 @@
     </properties>
 
     <dependencies>
-        <!-- mock 数据框架-->
         <dependency>
-            <groupId>com.github.jsonzou</groupId>
-            <artifactId>jmockdata</artifactId>
-            <version>${jmockdata.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>2.0.15</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-collections4</artifactId>
-            <version>4.4</version>
-        </dependency>
-
-
-
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.9.3</version>
-            <scope>test</scope>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.3.0</version>
         </dependency>
     </dependencies>
     <build>
@@ -51,8 +31,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>21</source>
-                    <target>21</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>

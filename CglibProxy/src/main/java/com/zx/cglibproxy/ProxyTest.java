@@ -30,12 +30,4 @@ public class ProxyTest {
         proxy.eat();
 
     }
-
-
-class Person {
-    public void eat() {
-        System.out.println("在吃饭了！");
-    }
-}
-
 }
