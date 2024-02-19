@@ -1,5 +1,4 @@
 import com.zx.model.Person;
-import lombok.Setter;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
