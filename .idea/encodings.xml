@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$/BaseTest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BaseTest/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/BaseTest/src/test/resources/User.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/CglibProxy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CglibProxy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Common/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GroovyDemo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GroovyDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Junit4Test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Junit4Test/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Junit5Test/src/main/java" charset="UTF-8" />
@@ -18,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/MybatisTest/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TransactionTest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TransactionTest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring6-Demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
