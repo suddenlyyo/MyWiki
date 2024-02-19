@@ -20,6 +20,7 @@
         <module>BaseTest</module>
         <module>TransactionTest</module>
         <module>CglibProxy</module>
+        <module>spring6-Demo</module>
     </modules>
 
     <properties>
