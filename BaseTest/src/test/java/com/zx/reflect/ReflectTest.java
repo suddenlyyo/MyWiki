@@ -18,7 +18,8 @@ public class ReflectTest {
 //        Class<?> clazz3 = new User().getClass();
         Class<?> clazz = Class.forName("com.zx.model.User");
         // 创建实例对象
-        Object obj = clazz.newInstance();
+        // Object obj = clazz.newInstance();
+        Object obj = clazz.getDeclaredConstructor().newInstance();
         //打印的是User类对应的字节码对象
         System.out.println("打印的目标类对应的字节码对象" + clazz);
         //获取User类对应的字节码对象clazz1的名字
