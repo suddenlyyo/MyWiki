@@ -32,12 +32,5 @@ public class LockExample {
 //
 //    以上是常用的几种锁机制，不同的锁机制适用于不同的场景，选择合适的锁机制可以提高代码的并发性能和可靠性。
 
-    public void bar() {
-        lock.lock(); // 获取锁
-        try {
-            // 同步块内容
-        } finally {
-            lock.unlock(); // 释放锁
-        }
-    }
+
 }
