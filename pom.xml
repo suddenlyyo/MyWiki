@@ -21,6 +21,7 @@
         <module>TransactionTest</module>
         <module>CglibProxy</module>
         <module>spring6-Demo</module>
+        <module>ActiveMQ</module>
     </modules>
 
     <properties>
