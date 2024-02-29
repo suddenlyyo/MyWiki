@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /
+  port: 2001
+
+spring:
+  application:
+    name: kafka-demo-producer
+  # 连接kafka集群
+  kafka:
+    # 多个主机用逗号隔开
+    bootstrap-servers: localhost:9092
+    # 生产者
+    producer:
+      # key与value的序列化
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer

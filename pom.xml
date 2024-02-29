@@ -23,6 +23,7 @@
         <module>spring6-Demo</module>
         <module>ActiveMQ</module>
         <module>RabbitMQ</module>
+        <module>KafkaTest</module>
     </modules>
 
     <properties>
