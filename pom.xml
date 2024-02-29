@@ -22,6 +22,7 @@
         <module>CglibProxy</module>
         <module>spring6-Demo</module>
         <module>ActiveMQ</module>
+        <module>RabbitMQ</module>
     </modules>
 
     <properties>
