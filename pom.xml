@@ -24,6 +24,7 @@
         <module>ActiveMQ</module>
         <module>RabbitMQ</module>
         <module>KafkaTest</module>
+        <module>ServletTest</module>
     </modules>
 
     <properties>
@@ -31,7 +32,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <mybatis-spring-boot-starter.version>2.2.2</mybatis-spring-boot-starter.version>
-        <spring-boot.version>2.6.13</spring-boot.version>
+        <spring-boot.version>3.2.3</spring-boot.version>
         <jmockdata.version>4.3.0</jmockdata.version>
         <mysql.version>8.0.31</mysql.version>
         <p6spy.version>3.9.1</p6spy.version>

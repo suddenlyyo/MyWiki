@@ -35,7 +35,7 @@ public class KafkaSenderImpl implements ISender {
      */
     @Override
     public void sender(String data) {
-        ListenableFuture<SendResult<String, String>> future = this.kafkaTemplate.send("test_kafka", data);
+        ListenableFuture<SendResult<String, String>> future = (ListenableFuture<SendResult<String, String>>) this.kafkaTemplate.send("test_kafka", data);
         future.addCallback(new ListenableFutureCallback<SendResult<String, String>>() {
             @Override
             public void onSuccess(SendResult<String, String> result) {
