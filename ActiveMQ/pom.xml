@@ -12,8 +12,8 @@
     <artifactId>ActiveMQ</artifactId>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
@@ -25,7 +25,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-activemq</artifactId>
-            <version>1.5.0.RELEASE</version>
+            <version>3.2.0</version>
         </dependency>
         <!-- 消息队列连接池 -->
         <dependency>
