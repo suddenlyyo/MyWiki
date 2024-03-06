@@ -1,14 +1,15 @@
 package com.zx.controller;
 
+import jakarta.jms.Destination;
+import jakarta.jms.Queue;
+import jakarta.jms.Topic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.jms.Destination;
-import javax.jms.Queue;
-import javax.jms.Topic;
+
 
 @RestController
 public class ProducerController {

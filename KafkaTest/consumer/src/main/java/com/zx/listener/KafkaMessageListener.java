@@ -1,12 +1,11 @@
 package com.zx.listener;
 
+import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.annotation.PartitionOffset;
 import org.springframework.kafka.annotation.TopicPartition;
-import org.springframework.kafka.support.KafkaHeaders;
-import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
@@ -32,20 +31,43 @@ public class KafkaMessageListener {
     }
 
     //获取分区信息
+//    @KafkaListener(topics = "demo", groupId = "test-consumer")
+//    public void listenGetPartition(@Payload String message,
+//                                   @Header(KafkaHeaders.RECEIVED_PARTITION_ID) int partition) {
+//        logger.info("接收消息: {}，partition：{}", message, partition);
+//    }
+    //KafkaHeaders.RECEIVED_PARTITION_ID 字段被删除了新版写法
     @KafkaListener(topics = "demo", groupId = "test-consumer")
-    public void listenGetPartition(@Payload String message,
-                                   @Header(KafkaHeaders.RECEIVED_PARTITION_ID) int partition) {
+
+    public void listenGetPartition(@Payload ConsumerRecord<String, String> record) {
+
+        String message = record.value(); // 获取消息内容
+
+        int partition = record.partition(); // 获取分区 ID
+
         logger.info("接收消息: {}，partition：{}", message, partition);
+
     }
 
     //指定只接收来自特定分区的消息
+//    @KafkaListener(topicPartitions = @TopicPartition(topic = "test",
+//            partitionOffsets = {
+//                    @PartitionOffset(partition = "0", initialOffset = "0")
+//            }),
+//            groupId = "test-consumer")
+//    public void listenByPartition(@Payload String message,
+//                                  @Header(KafkaHeaders.RECEIVED_PARTITION_ID) int partition) {
+//        logger.info("接收消息: {}，partition：{}", message, partition);
+//    }
+    //KafkaHeaders.RECEIVED_PARTITION_ID 字段被删除了新版写法
     @KafkaListener(topicPartitions = @TopicPartition(topic = "test",
             partitionOffsets = {
                     @PartitionOffset(partition = "0", initialOffset = "0")
             }),
             groupId = "test-consumer")
-    public void listenByPartition(@Payload String message,
-                                  @Header(KafkaHeaders.RECEIVED_PARTITION_ID) int partition) {
+    public void listenByPartition(@Payload ConsumerRecord<String, String> record) {
+        String message = record.value(); // 获取消息内容
+        int partition = record.partition(); // 获取分区 ID
         logger.info("接收消息: {}，partition：{}", message, partition);
     }
 }
