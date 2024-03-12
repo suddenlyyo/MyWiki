@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 
 /**
@@ -114,7 +115,7 @@ public class MapTest {
         map.put("C", 3);
         map.put("D", 4);
         // 使用 merge 方法合并两个值
-        map.merge("A", 5, (v1, v2) -> v1 + v2);
+        map.merge("A", 5, Integer::sum);
         // 输出合并后的结果
         System.out.println(map);
     }
@@ -153,4 +154,35 @@ public class MapTest {
 
     }
 
+    @Test
+    public void treeMapTest() {
+        // 创建一个 TreeMap 实例
+        TreeMap<String, Integer> treeMap = new TreeMap<>();
+
+        // 向 TreeMap 中添加元素
+        treeMap.put("Apple", 10);
+        treeMap.put("Banana", 5);
+        treeMap.put("Cherry", 15);
+        treeMap.put("Date", 8);
+
+        // 遍历 TreeMap 中的元素
+        for (String key : treeMap.keySet()) {
+            System.out.println("Key: " + key + ", Value: " + treeMap.get(key));
+        }
+
+        // 使用 firstKey(), lastKey() 和 subMap() 方法
+        System.out.println("First key: " + treeMap.firstKey());
+        System.out.println("Last key: " + treeMap.lastKey());
+        System.out.println("SubMap from 'Banana' to 'Cherry':");
+        TreeMap<String, Integer> subMap = (TreeMap<String, Integer>) treeMap.subMap("Banana", "Cherry");
+        for (String key : subMap.keySet()) {
+            System.out.println("Key: " + key + ", Value: " + subMap.get(key));
+        }
+
+        // 使用 lowerKey(), floorKey(), ceilingKey(), higherKey() 方法
+        System.out.println("Lower key of 'Cherry': " + treeMap.lowerKey("Cherry"));
+        System.out.println("Floor key of 'Cherry': " + treeMap.floorKey("Cherry"));
+        System.out.println("Ceiling key of 'Banana': " + treeMap.ceilingKey("Banana"));
+        System.out.println("Higher key of 'Banana': " + treeMap.higherKey("Banana"));
+    }
 }
