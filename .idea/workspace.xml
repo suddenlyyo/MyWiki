@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="treeMap 测试" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.0/spring-context-6.0.0.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.3.0/jedis-3.3.0.jar!/redis/clients/jedis/Connection.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2cZjdg4jAyKf0P6oRIFPSJivWN7" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ActiveMqApplication.executor": "Run",
+    "Application.KafkaApplication.executor": "Run",
+    "Application.KafkaConsumerApplication.executor": "Debug",
+    "Application.KafkaProducerApplication.executor": "Debug",
+    "Application.ProxyTest.executor": "Run",
+    "JUnit.FileTest.serializationTest.executor": "Run",
+    "JUnit.Java8Test.testOptional.executor": "Run",
+    "JUnit.JedisTest.baseTest.executor": "Run",
+    "JUnit.MapTest.treeMapTest.executor": "Run",
+    "JUnit.SortTest.bubbleSort.executor": "Debug",
+    "JUnit.Spring6Test.createPerson.executor": "Run",
+    "JUnit.StringTest.multilineStrings1.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.MyWiki [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "azul-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/xunzhou/Downloads/JavaProject/MyWiki/KafkaTest/producer/src/main/java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "com.gitee.ui.GiteeSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/KafkaTest/producer/src/main/java" />
+      <recent name="$PROJECT_DIR$/KafkaTest/producer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/KafkaTest/consumer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/KafkaTest/consumer/src/main/java" />
+      <recent name="$PROJECT_DIR$/ActiveMQ" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MapTest.treeMapTest">
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.cglibproxy.ProxyTest" />
+      <module name="CglibProxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.cglibproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java8Test.testOptional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BaseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.java8.Java8Test" />
+      <option name="METHOD_NAME" value="testOptional" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest.treeMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BaseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.base" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.base.MapTest" />
+      <option name="METHOD_NAME" value="treeMapTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest.bubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BaseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.base.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.base.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.base.sort.SortTest" />
+      <option name="METHOD_NAME" value="bubbleSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTest.multilineStrings1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BaseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.base" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.base.StringTest" />
+      <option name="METHOD_NAME" value="multilineStrings1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MapTest.treeMapTest" />
+        <item itemvalue="JUnit.Java8Test.testOptional" />
+        <item itemvalue="JUnit.StringTest.multilineStrings1" />
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="JUnit.SortTest.bubbleSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-azul-21.0.1-4caba194b151-ee4d374b" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-2f79fb23" />
+        <option value="jdk-21.0.2-azul-21.0.2-3183f394aec4-97115adc" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="" />
+      <created>1708326083657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708326083657</updated>
+    </task>
+    <task id="LOCAL-00001" summary="修改反射初始化，使用新方法">
+      <option name="closed" value="true" />
+      <created>1708345226687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708345226687</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试 spring6  使用xml配置bean">
+      <option name="closed" value="true" />
+      <created>1708345380773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708345380773</updated>
+    </task>
+    <task id="LOCAL-00003" summary="测试 spring6  使用xml配置bean">
+      <option name="closed" value="true" />
+      <created>1708348656339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708348656339</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;spring6-Demo/src/test/java/Spring6Test.java">
+      <option name="closed" value="true" />
+      <created>1708348729112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708348729112</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;spring6-Demo/src/test/java/Spring6Test.java">
+      <option name="closed" value="true" />
+      <created>1708387356443</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708387356443</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;spring6-Demo/src/test/java/Spring6Test.java">
+      <option name="closed" value="true" />
+      <created>1708415084925</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708415084925</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;spring6-Demo/src/test/java/Spring6Test.java">
+      <option name="closed" value="true" />
+      <created>1709100781736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709100781736</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;spring6-Demo/src/test/java/Spring6Test.java">
+      <option name="closed" value="true" />
+      <created>1709100791546</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709100791546</updated>
+    </task>
+    <task id="LOCAL-00009" summary="去掉多余方法">
+      <option name="closed" value="true" />
+      <created>1709106134105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709106134105</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ActiveMq 测试模块">
+      <option name="closed" value="true" />
+      <created>1709178627513</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709178627513</updated>
+    </task>
+    <task id="LOCAL-00011" summary="RabbitMq 测试模块">
+      <option name="closed" value="true" />
+      <created>1709178953075</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709178953075</updated>
+    </task>
+    <task id="LOCAL-00012" summary="kafkaMq 测试模块">
+      <option name="closed" value="true" />
+      <created>1709200343096</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709200343096</updated>
+    </task>
+    <task id="LOCAL-00013" summary="修改插件版本">
+      <option name="closed" value="true" />
+      <created>1709280636699</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709280636699</updated>
+    </task>
+    <task id="LOCAL-00014" summary="修改插件版本">
+      <option name="closed" value="true" />
+      <created>1709704868300</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709704868300</updated>
+    </task>
+    <task id="LOCAL-00015" summary="kafkaMq 测试模块">
+      <option name="closed" value="true" />
+      <created>1709709370379</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709709370379</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Java 版本调整， servlet 测试实现">
+      <option name="closed" value="true" />
+      <created>1709714491528</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709714491528</updated>
+    </task>
+    <task id="LOCAL-00017" summary="treeMap 测试">
+      <option name="closed" value="true" />
+      <created>1710251460104</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710251460104</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改反射初始化，使用新方法" />
+    <MESSAGE value="测试 spring6  使用xml配置bean" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;spring6-Demo/src/test/java/Spring6Test.java" />
+    <MESSAGE value="去掉多余方法" />
+    <MESSAGE value="ActiveMq 测试模块" />
+    <MESSAGE value="RabbitMq 测试模块" />
+    <MESSAGE value="修改插件版本" />
+    <MESSAGE value="kafkaMq 测试模块" />
+    <MESSAGE value="Java 版本调整， servlet 测试实现" />
+    <MESSAGE value="treeMap 测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="treeMap 测试" />
+  </component>
+</project>
