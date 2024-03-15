@@ -15,7 +15,7 @@ public class SortTest {
     @Test
     @DisplayName("冒泡排序")
     public void bubbleSort() {
-        int[] arr = {28, 12, 89, 73, 65, 18, 96, 50, 8, 36};
+        int[] arr = {5, 4, 3};
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
@@ -24,7 +24,14 @@ public class SortTest {
                     arr[j] = arr[j + 1];
                     arr[j + 1] = tmp;
                 }
+                // 使用String.join方法将数组元素以逗号分隔并连接成字符串
+                String commaSeparated = String.join(",", Arrays.stream(arr)
+                        .mapToObj(String::valueOf)
+                        .toArray(String[]::new));
+                // 输出结果
+                System.out.println(commaSeparated);
             }
+
         }
     }
 

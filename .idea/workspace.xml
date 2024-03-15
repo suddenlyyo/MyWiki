@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="treeMap 测试" />
+    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="treeMap 测试">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseTest/src/test/java/com/zx/base/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseTest/src/test/java/com/zx/base/sort/SortTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,11 +54,12 @@
     "Application.KafkaConsumerApplication.executor": "Debug",
     "Application.KafkaProducerApplication.executor": "Debug",
     "Application.ProxyTest.executor": "Run",
+    "Application.cs.executor": "Run",
     "JUnit.FileTest.serializationTest.executor": "Run",
     "JUnit.Java8Test.testOptional.executor": "Run",
     "JUnit.JedisTest.baseTest.executor": "Run",
     "JUnit.MapTest.treeMapTest.executor": "Run",
-    "JUnit.SortTest.bubbleSort.executor": "Debug",
+    "JUnit.SortTest.bubbleSort.executor": "Run",
     "JUnit.Spring6Test.createPerson.executor": "Run",
     "JUnit.StringTest.multilineStrings1.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -63,6 +67,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "extract.method.default.visibility": "private",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "azul-21",
     "kotlin-language-version-configured": "true",
@@ -94,13 +99,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MapTest.treeMapTest">
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.cglibproxy.ProxyTest" />
-      <module name="CglibProxy" />
+  <component name="RunManager" selected="JUnit.SortTest.bubbleSort">
+    <configuration name="cs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.base.cs" />
+      <module name="BaseTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.cglibproxy.*" />
+          <option name="PATTERN" value="com.zx.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SortTest.bubbleSort" />
+        <item itemvalue="Application.cs" />
         <item itemvalue="JUnit.MapTest.treeMapTest" />
         <item itemvalue="JUnit.Java8Test.testOptional" />
         <item itemvalue="JUnit.StringTest.multilineStrings1" />
-        <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="JUnit.SortTest.bubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710251460104</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="treeMap 测试">
+      <option name="closed" value="true" />
+      <created>1710252046159</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710252046159</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
