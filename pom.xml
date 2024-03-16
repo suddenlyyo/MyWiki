@@ -25,6 +25,7 @@
         <module>RabbitMQ</module>
         <module>KafkaTest</module>
         <module>ServletTest</module>
+        <module>ParamValidation</module>
     </modules>
 
     <properties>

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="treeMap 测试">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseTest/src/test/java/com/zx/base/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseTest/src/test/java/com/zx/base/sort/SortTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="spring-boot-starter-validation 测试" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,10 +51,15 @@
     "Application.KafkaConsumerApplication.executor": "Debug",
     "Application.KafkaProducerApplication.executor": "Debug",
     "Application.ProxyTest.executor": "Run",
+    "Application.ThreadLocalExample.executor": "Run",
+    "Application.ValidationApplication.executor": "Debug",
     "Application.cs.executor": "Run",
+    "JUnit.CalendarTest.get.executor": "Run",
+    "JUnit.FileTest.bufferedReaderReadFile.executor": "Run",
     "JUnit.FileTest.serializationTest.executor": "Run",
     "JUnit.Java8Test.testOptional.executor": "Run",
     "JUnit.JedisTest.baseTest.executor": "Run",
+    "JUnit.MapTest.merge.executor": "Run",
     "JUnit.MapTest.treeMapTest.executor": "Run",
     "JUnit.SortTest.bubbleSort.executor": "Run",
     "JUnit.Spring6Test.createPerson.executor": "Run",
@@ -69,10 +71,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "azul-21",
+    "jdk.selected.JAVA_MODULE": "liberica-21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/xunzhou/Downloads/JavaProject/MyWiki/KafkaTest/producer/src/main/java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "com.gitee.ui.GiteeSettingsConfigurable"
@@ -99,13 +101,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortTest.bubbleSort">
-    <configuration name="cs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.base.cs" />
+  <component name="RunManager" selected="JUnit.FileTest.bufferedWriterWriterFile">
+    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.multithreading.ThreadLocalExample" />
       <module name="BaseTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.base.*" />
+          <option name="PATTERN" value="com.zx.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,23 +115,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java8Test.testOptional" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BaseTest" />
+    <configuration name="ValidationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.ValidationApplication" />
+      <module name="ParamValidation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.java8.*" />
+          <option name="PATTERN" value="com.zx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zx.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.java8.Java8Test" />
-      <option name="METHOD_NAME" value="testOptional" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTest.bufferedReaderReadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BaseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.io" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.io.FileTest" />
+      <option name="METHOD_NAME" value="bufferedReaderReadFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest.treeMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileTest.bufferedWriterWriterFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BaseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.io" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.io.FileTest" />
+      <option name="METHOD_NAME" value="bufferedWriterWriterFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest.merge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BaseTest" />
       <extension name="coverage">
         <pattern>
@@ -139,39 +170,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zx.base" />
       <option name="MAIN_CLASS_NAME" value="com.zx.base.MapTest" />
-      <option name="METHOD_NAME" value="treeMapTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest.bubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BaseTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.base.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zx.base.sort" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.base.sort.SortTest" />
-      <option name="METHOD_NAME" value="bubbleSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest.multilineStrings1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BaseTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zx.base" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.base.StringTest" />
-      <option name="METHOD_NAME" value="multilineStrings1" />
+      <option name="METHOD_NAME" value="merge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SortTest.bubbleSort" />
-        <item itemvalue="Application.cs" />
-        <item itemvalue="JUnit.MapTest.treeMapTest" />
-        <item itemvalue="JUnit.Java8Test.testOptional" />
-        <item itemvalue="JUnit.StringTest.multilineStrings1" />
+        <item itemvalue="JUnit.FileTest.bufferedWriterWriterFile" />
+        <item itemvalue="JUnit.FileTest.bufferedReaderReadFile" />
+        <item itemvalue="Application.ValidationApplication" />
+        <item itemvalue="Application.ThreadLocalExample" />
+        <item itemvalue="JUnit.MapTest.merge" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710252046159</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="spring-boot-starter-validation 测试">
+      <option name="closed" value="true" />
+      <created>1710571716766</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710571716766</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -380,6 +387,8 @@
     <MESSAGE value="kafkaMq 测试模块" />
     <MESSAGE value="Java 版本调整， servlet 测试实现" />
     <MESSAGE value="treeMap 测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="treeMap 测试" />
+    <MESSAGE value="修改冒泡排序，实现显示排序变化" />
+    <MESSAGE value="spring-boot-starter-validation 测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-boot-starter-validation 测试" />
   </component>
 </project>
