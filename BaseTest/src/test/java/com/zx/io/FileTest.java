@@ -1,6 +1,5 @@
 package com.zx.io;
 
-import com.github.jsonzou.jmockdata.JMockData;
 import com.zx.model.User;
 import org.junit.jupiter.api.Test;
 
@@ -39,6 +38,7 @@ public class FileTest {
         File file = new File(path + "myFile.txt");
         //try-with-resources 是一种 Java 编程语言结构，可以在代码块结束时自动关闭打开的资源（如文件、数据库连接等）
         //try(BufferedReader br = new BufferedReader(new FileReader("filename.txt"))) {
+        // try(BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file)))) {
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(Files.newInputStream(file.toPath())))) {
             System.out.println("文件路径:" + file.toPath());
@@ -90,8 +90,7 @@ public class FileTest {
      */
     @Test
     public void serializationTest() {
-        //mock User对象
-        User user = JMockData.mock(User.class);
+        User user = new User();
         //使用对象输出流将该对象序列化到文件“User.txt”中
         try (FileOutputStream fileOut = new FileOutputStream(path + "User.txt");
              ObjectOutputStream out = new ObjectOutputStream(fileOut)) {
@@ -155,6 +154,34 @@ public class FileTest {
             System.out.println(stringValue); // Hello, World!
         } catch (IOException e) {
             throw new RuntimeException(e);
+        }
+    }
+
+    @Test
+    public void bufferedStreamTest() {
+        String sourceFilePath = path + "source.txt";
+        String destinationFilePath = path + "destination.txt";
+        try (FileInputStream fis = new FileInputStream(sourceFilePath);
+             BufferedInputStream bis = new BufferedInputStream(fis);
+             FileOutputStream fos = new FileOutputStream(destinationFilePath);
+             BufferedOutputStream bos = new BufferedOutputStream(fos)) {
+
+            byte[] buffer = new byte[1024]; // 创建一个缓冲区，大小为1024字节
+            int bytesRead;
+
+            // 从BufferedInputStream中读取数据到缓冲区
+            while ((bytesRead = bis.read(buffer)) != -1) {
+                // 将缓冲区的数据写入BufferedOutputStream
+                bos.write(buffer, 0, bytesRead);
+            }
+
+            // 注意：通常不需要显式调用bos.flush()，因为在try-with-resources结束时，BufferedOutputStream会自动刷新缓冲区
+            // bos.flush(); // 刷新输出流缓冲区，但在本例中由于使用了try-with-resources，可以省略这一步
+
+            System.out.println("文件已成功从源文件复制到目标文件！");
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
