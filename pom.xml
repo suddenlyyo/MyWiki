@@ -26,6 +26,7 @@
         <module>KafkaTest</module>
         <module>ServletTest</module>
         <module>ParamValidation</module>
+        <module>DesignPatterns</module>
     </modules>
 
     <properties>

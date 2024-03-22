@@ -4,9 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="io 处理修改">
+    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="spring-boot-starter-validation 测试修改">
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/SingletonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/enums/SingletonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/impl/CommonSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/impl/DoubleCheckedLockingLazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/impl/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/impl/StaticInnerClassSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/impl/ThreadSafeLazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/PersonAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/PersonFactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/factory/DoctorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/factory/TeacherFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/impl/ArtsTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/impl/Endocrinologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/impl/MathTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/impl/Surgeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/factory/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/factory/AnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/factory/FactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/factory/impl/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/factory/impl/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseTest/src/test/java/com/zx/io/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseTest/src/test/java/com/zx/io/FileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +47,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -49,17 +77,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractFactoryPatternDemo.executor": "Run",
     "Application.ActiveMqApplication.executor": "Run",
+    "Application.FactoryPatternDemo.executor": "Run",
     "Application.KafkaApplication.executor": "Run",
     "Application.KafkaConsumerApplication.executor": "Debug",
     "Application.KafkaProducerApplication.executor": "Debug",
     "Application.ProxyTest.executor": "Run",
+    "Application.SingletonEnum.executor": "Run",
     "Application.ThreadLocalExample.executor": "Run",
     "Application.ValidationApplication.executor": "Debug",
     "Application.cs.executor": "Run",
     "JUnit.CalendarTest.get.executor": "Run",
     "JUnit.FileTest.BufferedStreamTest.executor": "Run",
     "JUnit.FileTest.bufferedReaderReadFile.executor": "Run",
+    "JUnit.FileTest.bufferedStreamTest.executor": "Run",
     "JUnit.FileTest.bufferedWriterWriterFile.executor": "Run",
     "JUnit.FileTest.serializationTest.executor": "Run",
     "JUnit.Java8Test.testOptional.executor": "Run",
@@ -82,7 +114,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.gitee.ui.GiteeSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -106,13 +138,39 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileTest.bufferedStreamTest">
-    <configuration name="ValidationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.ValidationApplication" />
-      <module name="ParamValidation" />
+  <component name="RunManager" selected="Application.SingletonEnum">
+    <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.create.abstractfactory.AbstractFactoryPatternDemo" />
+      <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.*" />
+          <option name="PATTERN" value="com.zx.create.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.create.factory.FactoryPatternDemo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.create.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.create.Singleton.enums.SingletonEnum" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.create.Singleton.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,22 +194,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTest.bufferedReaderReadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BaseTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zx.io" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.io.FileTest" />
-      <option name="METHOD_NAME" value="bufferedReaderReadFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FileTest.bufferedStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BaseTest" />
       <extension name="coverage">
@@ -168,29 +210,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTest.bufferedWriterWriterFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BaseTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zx.io" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.io.FileTest" />
-      <option name="METHOD_NAME" value="bufferedWriterWriterFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonEnum" />
+        <item itemvalue="Application.AbstractFactoryPatternDemo" />
+        <item itemvalue="Application.FactoryPatternDemo" />
         <item itemvalue="JUnit.FileTest.bufferedStreamTest" />
         <item itemvalue="JUnit.FileTest.BufferedStreamTest" />
-        <item itemvalue="JUnit.FileTest.bufferedReaderReadFile" />
-        <item itemvalue="JUnit.FileTest.bufferedWriterWriterFile" />
-        <item itemvalue="Application.ValidationApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +398,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710574259449</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="io 处理">
+      <option name="closed" value="true" />
+      <created>1710578571950</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1710578571950</updated>
+    </task>
+    <task id="LOCAL-00022" summary="spring-boot-starter-validation 测试修改">
+      <option name="closed" value="true" />
+      <created>1710578910827</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710578910827</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -406,6 +448,8 @@
     <MESSAGE value="修改冒泡排序，实现显示排序变化" />
     <MESSAGE value="spring-boot-starter-validation 测试" />
     <MESSAGE value="io 处理修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="io 处理修改" />
+    <MESSAGE value="io 处理" />
+    <MESSAGE value="spring-boot-starter-validation 测试修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-boot-starter-validation 测试修改" />
   </component>
 </project>
