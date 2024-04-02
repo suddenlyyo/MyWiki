@@ -4,35 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="spring-boot-starter-validation 测试修改">
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/SingletonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/enums/SingletonEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/impl/CommonSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/impl/DoubleCheckedLockingLazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/impl/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/impl/StaticInnerClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/Singleton/impl/ThreadSafeLazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/AbstractFactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/PersonAbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/PersonFactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/factory/DoctorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/factory/TeacherFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/impl/ArtsTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/impl/Endocrinologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/impl/MathTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/abstractfactory/service/impl/Surgeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/factory/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/factory/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/factory/FactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/factory/impl/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/factory/impl/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="实现设计模式 创建型模式中的工厂模式、抽象工厂、单例模式测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisTest/src/main/java/com/zx/demo/MybatisTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisTest/src/main/java/com/zx/demo/MybatisTestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +57,11 @@
     "Application.KafkaApplication.executor": "Run",
     "Application.KafkaConsumerApplication.executor": "Debug",
     "Application.KafkaProducerApplication.executor": "Debug",
+    "Application.MybatisTestApplication.executor": "Debug",
     "Application.ProxyTest.executor": "Run",
     "Application.SingletonEnum.executor": "Run",
+    "Application.SocketClient.executor": "Run",
+    "Application.SocketServer.executor": "Run",
     "Application.ThreadLocalExample.executor": "Run",
     "Application.ValidationApplication.executor": "Debug",
     "Application.cs.executor": "Run",
@@ -96,8 +73,14 @@
     "JUnit.FileTest.serializationTest.executor": "Run",
     "JUnit.Java8Test.testOptional.executor": "Run",
     "JUnit.JedisTest.baseTest.executor": "Run",
+    "JUnit.MapTest.keySet.executor": "Run",
     "JUnit.MapTest.merge.executor": "Run",
     "JUnit.MapTest.treeMapTest.executor": "Run",
+    "JUnit.MapTest.values.executor": "Run",
+    "JUnit.MybatisTestApplicationTests.batchInsertUserTest.executor": "Debug",
+    "JUnit.MybatisTestApplicationTests.findByIdTest (1).executor": "Run",
+    "JUnit.MybatisTestApplicationTests.findByIdTest.executor": "Run",
+    "JUnit.MybatisTestApplicationTests.getListUserTest.executor": "Debug",
     "JUnit.SortTest.bubbleSort.executor": "Run",
     "JUnit.Spring6Test.createPerson.executor": "Run",
     "JUnit.StringTest.multilineStrings1.executor": "Run",
@@ -114,7 +97,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "com.gitee.ui.GiteeSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -138,13 +121,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonEnum">
-    <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.create.abstractfactory.AbstractFactoryPatternDemo" />
-      <module name="DesignPatterns" />
+  <component name="RunManager" selected="JUnit.MybatisTestApplicationTests.getListUserTest">
+    <configuration name="MybatisTestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.demo.MybatisTestApplication" />
+      <module name="MybatisTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.create.abstractfactory.*" />
+          <option name="PATTERN" value="com.zx.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,59 +135,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.create.factory.FactoryPatternDemo" />
-      <module name="DesignPatterns" />
+    <configuration name="MybatisTestApplicationTests.batchInsertUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.create.factory.*" />
+          <option name="PATTERN" value="com.zx.demo.mysql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.create.Singleton.enums.SingletonEnum" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.create.Singleton.enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileTest.BufferedStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BaseTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zx.io" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.io.FileTest" />
-      <option name="METHOD_NAME" value="BufferedStreamTest" />
+      <option name="PACKAGE_NAME" value="com.zx.demo.mysql" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.demo.mysql.MybatisTestApplicationTests" />
+      <option name="METHOD_NAME" value="batchInsertUserTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTest.bufferedStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BaseTest" />
+    <configuration name="MybatisTestApplicationTests.findByIdTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.io.*" />
+          <option name="PATTERN" value="com.zx.demo.mysql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zx.io" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.io.FileTest" />
-      <option name="METHOD_NAME" value="bufferedStreamTest" />
+      <option name="PACKAGE_NAME" value="com.zx.demo.mysql" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.demo.mysql.MybatisTestApplicationTests" />
+      <option name="METHOD_NAME" value="findByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTestApplicationTests.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.demo.h2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.demo.h2" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.demo.h2.MybatisTestApplicationTests" />
+      <option name="METHOD_NAME" value="findByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTestApplicationTests.getListUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.demo.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.demo.mysql" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.demo.mysql.MybatisTestApplicationTests" />
+      <option name="METHOD_NAME" value="getListUserTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingletonEnum" />
-        <item itemvalue="Application.AbstractFactoryPatternDemo" />
-        <item itemvalue="Application.FactoryPatternDemo" />
-        <item itemvalue="JUnit.FileTest.bufferedStreamTest" />
-        <item itemvalue="JUnit.FileTest.BufferedStreamTest" />
+        <item itemvalue="JUnit.MybatisTestApplicationTests.getListUserTest" />
+        <item itemvalue="JUnit.MybatisTestApplicationTests.batchInsertUserTest" />
+        <item itemvalue="Application.MybatisTestApplication" />
+        <item itemvalue="JUnit.MybatisTestApplicationTests.findByIdTest (1)" />
+        <item itemvalue="JUnit.MybatisTestApplicationTests.findByIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710578910827</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="实现设计模式 创建型模式中的工厂模式、抽象工厂、单例模式测试">
+      <option name="closed" value="true" />
+      <created>1711094055987</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711094055987</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -450,6 +447,7 @@
     <MESSAGE value="io 处理修改" />
     <MESSAGE value="io 处理" />
     <MESSAGE value="spring-boot-starter-validation 测试修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-boot-starter-validation 测试修改" />
+    <MESSAGE value="实现设计模式 创建型模式中的工厂模式、抽象工厂、单例模式测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现设计模式 创建型模式中的工厂模式、抽象工厂、单例模式测试" />
   </component>
 </project>
