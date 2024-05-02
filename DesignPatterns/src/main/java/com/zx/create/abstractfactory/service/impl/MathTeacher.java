@@ -11,7 +11,8 @@ import com.zx.create.abstractfactory.service.Teacher;
  * @author zhou  xun
  */
 public class MathTeacher implements Teacher {
-    private final String name="数学老师";
+    private final String name = "数学老师";
+
     /**
      * 教育
      *
@@ -20,6 +21,6 @@ public class MathTeacher implements Teacher {
      */
     @Override
     public void education() {
-        System.out.println(this.name+"在教学生加法");
+        System.out.println(this.name + "在教学生加法");
     }
 }

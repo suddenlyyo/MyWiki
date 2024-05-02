@@ -12,12 +12,12 @@ import com.zx.create.factory.impl.Dog;
  * @author zhou  xun
  */
 public class AnimalFactory {
-    public Animal create(String name){
-        if("Dog".equals(name)){
+    public Animal create(String name) {
+        if ("Dog".equals(name)) {
             return new Dog();
         }
-        if ("Cat".equals(name)){
-            return  new Cat();
+        if ("Cat".equals(name)) {
+            return new Cat();
         }
         return null;
     }

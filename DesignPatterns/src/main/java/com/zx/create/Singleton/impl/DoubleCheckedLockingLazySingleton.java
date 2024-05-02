@@ -19,7 +19,10 @@ public class DoubleCheckedLockingLazySingleton implements Singleton {
     //第一次判断是为了验证是否创建对象，判断为了避免不必要的同步
     //第二次判断是为了避免重复创建单例，因为可能会存在多个线程通过了第一次判断在等待锁，来创建新的实例对象
     private volatile static DoubleCheckedLockingLazySingleton instance;
-    private DoubleCheckedLockingLazySingleton (){}
+
+    private DoubleCheckedLockingLazySingleton() {
+    }
+
     public static Singleton getInstance() {
         if (instance == null) {
             synchronized (DoubleCheckedLockingLazySingleton.class) {

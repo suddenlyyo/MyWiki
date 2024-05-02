@@ -1,9 +1,5 @@
 package com.zx.create.Singleton;
 
-import com.zx.create.factory.Animal;
-import com.zx.create.factory.impl.Cat;
-import com.zx.create.factory.impl.Dog;
-
 /**
  * <p>
  * description: 获取单例服务  <br>
@@ -13,7 +9,7 @@ import com.zx.create.factory.impl.Dog;
  * @author zhou  xun
  */
 public class SingletonFactory {
-    public Singleton create(String name){
+    public Singleton create(String name) {
         //根据需要返回实现
         return null;
     }

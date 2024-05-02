@@ -2,8 +2,6 @@ package com.zx.create.abstractfactory.service.impl;
 
 import com.zx.create.abstractfactory.service.Doctor;
 
-import javax.print.Doc;
-
 /**
  * <p>
  * description: 内分泌科医生 <br>

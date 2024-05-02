@@ -11,7 +11,8 @@ import com.zx.create.factory.Animal;
  * @author zhou  xun
  */
 public class Cat implements Animal {
-    private final String name="小猫";
+    private final String name = "小猫";
+
     /**
      * 吃
      *
@@ -20,7 +21,7 @@ public class Cat implements Animal {
      */
     @Override
     public void eat() {
-        System.out.println(this.name+"在吃东西了!");
+        System.out.println(this.name + "在吃东西了!");
     }
 
     /**
@@ -31,7 +32,7 @@ public class Cat implements Animal {
      */
     @Override
     public void shout() {
-        System.out.println(this.name+"在叫唤。。");
+        System.out.println(this.name + "在叫唤。。");
     }
 
     /**
@@ -42,7 +43,7 @@ public class Cat implements Animal {
      */
     @Override
     public void run() {
-        System.out.println(this.name+"跑过来了。。");
+        System.out.println(this.name + "跑过来了。。");
     }
 
     /**
@@ -53,7 +54,7 @@ public class Cat implements Animal {
      */
     @Override
     public void sleep() {
-        System.out.println(this.name+"它睡着了。。");
+        System.out.println(this.name + "它睡着了。。");
     }
 
     /**
@@ -64,6 +65,6 @@ public class Cat implements Animal {
      */
     @Override
     public void drink() {
-        System.out.println(this.name+"它在喝水。。");
+        System.out.println(this.name + "它在喝水。。");
     }
 }

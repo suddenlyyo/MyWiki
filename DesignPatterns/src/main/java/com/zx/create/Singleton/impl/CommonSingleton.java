@@ -12,13 +12,19 @@ import com.zx.create.Singleton.Singleton;
  */
 public class CommonSingleton implements Singleton {
     private static CommonSingleton instance;
-    private CommonSingleton(){};
+
+    private CommonSingleton() {
+    }
+
+    ;
+
     public static Singleton getInstance() {
         if (instance == null) {
             instance = new CommonSingleton();
         }
         return instance;
     }
+
     //懒加载（lazy loading）：需要时才初始化数据或对象
     @Override
     public void showMessage() {

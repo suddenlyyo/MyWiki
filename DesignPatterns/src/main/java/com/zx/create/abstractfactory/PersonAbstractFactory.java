@@ -3,8 +3,6 @@ package com.zx.create.abstractfactory;
 import com.zx.create.abstractfactory.service.Doctor;
 import com.zx.create.abstractfactory.service.Teacher;
 
-import javax.print.Doc;
-
 /**
  * <p>
  * description:  <br>
@@ -16,6 +14,7 @@ import javax.print.Doc;
 public abstract class PersonAbstractFactory {
     /**
      * 获取医生
+     *
      * @param doctorName 医生名称
      * @return {@link Doctor}
      * @author zhou  xun
@@ -25,6 +24,7 @@ public abstract class PersonAbstractFactory {
 
     /**
      * 获取教师
+     *
      * @param teacherName 教师名称
      * @return {@link Teacher}
      * @author zhou  xun

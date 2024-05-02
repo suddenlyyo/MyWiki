@@ -11,6 +11,7 @@ package com.zx.create.abstractfactory.service;
 public interface Teacher {
     /**
      * 教育
+     *
      * @author zhou  xun
      * @since 2024-03-22
      */

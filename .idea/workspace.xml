@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="实现设计模式 创建型模式中的工厂模式、抽象工厂、单例模式测试">
+    <list default="true" id="f0e0692b-6b61-49cc-b7bf-5a8fdee05757" name="Changes" comment="调整mybatis 版本">
+      <change afterPath="$PROJECT_DIR$/BaseTest/src/test/java/com/zx/docdemo/ExampleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/BuilderPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/Packing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/impl/Bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/impl/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/impl/ChickenBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/impl/Coke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/impl/ColdDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/impl/Pepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/impl/VegBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/com/zx/create/builder/impl/Wrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisTest/src/main/java/com/zx/demo/MybatisTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisTest/src/main/java/com/zx/demo/MybatisTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +43,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;suddenlyyo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/suddenlyyo/MyWiki.git&quot;,
+    &quot;accountId&quot;: &quot;cdd82a20-1b6e-458d-b174-63fa1afab063&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.0/spring-context-6.0.0.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.3.0/jedis-3.3.0.jar!/redis/clients/jedis/Connection.class" root0="SKIP_INSPECTION" />
@@ -53,6 +78,7 @@
   "keyToString": {
     "Application.AbstractFactoryPatternDemo.executor": "Run",
     "Application.ActiveMqApplication.executor": "Run",
+    "Application.BuilderPatternDemo.executor": "Run",
     "Application.FactoryPatternDemo.executor": "Run",
     "Application.KafkaApplication.executor": "Run",
     "Application.KafkaConsumerApplication.executor": "Debug",
@@ -97,7 +123,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.gitee.ui.GiteeSettingsConfigurable"
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -121,13 +147,39 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTestApplicationTests.getListUserTest">
-    <configuration name="MybatisTestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zx.demo.MybatisTestApplication" />
-      <module name="MybatisTest" />
+  <component name="RunManager" selected="Application.BuilderPatternDemo">
+    <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.create.abstractfactory.AbstractFactoryPatternDemo" />
+      <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.demo.*" />
+          <option name="PATTERN" value="com.zx.create.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuilderPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.create.builder.BuilderPatternDemo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.create.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.create.Singleton.enums.SingletonEnum" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.create.Singleton.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,38 +203,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTestApplicationTests.findByIdTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.demo.mysql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zx.demo.mysql" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.demo.mysql.MybatisTestApplicationTests" />
-      <option name="METHOD_NAME" value="findByIdTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTestApplicationTests.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zx.demo.h2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zx.demo.h2" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.demo.h2.MybatisTestApplicationTests" />
-      <option name="METHOD_NAME" value="findByIdTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MybatisTestApplicationTests.getListUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MybatisTest" />
       <extension name="coverage">
@@ -201,22 +221,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuilderPatternDemo" />
+        <item itemvalue="Application.SingletonEnum" />
+        <item itemvalue="Application.AbstractFactoryPatternDemo" />
         <item itemvalue="JUnit.MybatisTestApplicationTests.getListUserTest" />
         <item itemvalue="JUnit.MybatisTestApplicationTests.batchInsertUserTest" />
-        <item itemvalue="Application.MybatisTestApplication" />
-        <item itemvalue="JUnit.MybatisTestApplicationTests.findByIdTest (1)" />
-        <item itemvalue="JUnit.MybatisTestApplicationTests.findByIdTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-azul-21.0.1-4caba194b151-ee4d374b" />
-        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-2f79fb23" />
-        <option value="jdk-21.0.2-azul-21.0.2-3183f394aec4-97115adc" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -411,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711094055987</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="调整mybatis 版本">
+      <option name="closed" value="true" />
+      <created>1712047706580</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1712047706580</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -425,7 +444,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="github/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -448,6 +479,7 @@
     <MESSAGE value="io 处理" />
     <MESSAGE value="spring-boot-starter-validation 测试修改" />
     <MESSAGE value="实现设计模式 创建型模式中的工厂模式、抽象工厂、单例模式测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现设计模式 创建型模式中的工厂模式、抽象工厂、单例模式测试" />
+    <MESSAGE value="调整mybatis 版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整mybatis 版本" />
   </component>
 </project>

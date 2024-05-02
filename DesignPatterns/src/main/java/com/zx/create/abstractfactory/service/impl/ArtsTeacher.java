@@ -11,7 +11,8 @@ import com.zx.create.abstractfactory.service.Teacher;
  * @author zhou  xun
  */
 public class ArtsTeacher implements Teacher {
-    private final String name="美术老师";
+    private final String name = "美术老师";
+
     /**
      * 教育
      *
@@ -20,6 +21,6 @@ public class ArtsTeacher implements Teacher {
      */
     @Override
     public void education() {
-        System.out.println(this.name+"在教学生没画画!");
+        System.out.println(this.name + "在教学生没画画!");
     }
 }

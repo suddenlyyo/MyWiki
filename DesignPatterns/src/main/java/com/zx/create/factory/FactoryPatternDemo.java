@@ -1,8 +1,5 @@
 package com.zx.create.factory;
 
-import com.zx.create.factory.Animal;
-import com.zx.create.factory.AnimalFactory;
-
 /**
  * <p>
  * description:  <br>
